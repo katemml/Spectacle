@@ -45,6 +45,8 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Project Structure
+![Product Name Screen Shot][structure]
 
 
 ### Built With
@@ -56,12 +58,42 @@
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Feature Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [X] Development Environment Setup
+    - [X] Setup GCE instance
+    - [X] Create SSH Key for GCE Instance
+- [X] Go Handlers
+    - [X] Create main.go
+    - [X] Create Post Upload Service 
+    - [X] Create Signin Handler
+    - [X] Create Signin Handler
+    - [X] Create  Search Handler
+    - [X] Create Delete Handler
+    - [X] Create Upload Handler
+- [X] Elasticsearch implmentation
+    - [X] Install Elasticsearch on GCE Instance
+    - [X] Create Elasticsearch Indexes
+    - [X] Read Data from Elasticsearch with Go program    
+- [X] Front end
+    - [X] Install some libraries
+    - [X] Update index.js
+    - [X] Create constants.js
+    - [X] Create Main.js 
+    - [X] Create Login.js
+    - [X] Create Register.js
+    - [X] Create Home.js
+    - [X] Create SearchBar.js
+    - [X] Configure Router in Main.js
+    - [X] Create PhotoGallery.js
+    - [X] Create CreatePostButton.js
+    - [X] Create PostForm.js   
+    - [X] Create corresponding .css  
+- [X] GCS
+    - [X] Create GCS Bucket
+    - [X] Integrate Post Handler with Elasticsearch and GCS      
+- [X] Implement Authentication with JSON Web Token(JWT)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -71,6 +103,8 @@
 
 [product-screenshot]: images/screenshot1.png
 [product-screenshot2]: images/screenshot2.png
+
+[structure]: images/structure.png
 
 
 
